@@ -1,0 +1,25 @@
+header .logo img{
+    width: 250px;
+}
+body header{
+    display: flex;
+    align-items: center;
+    background-color: rgb(247, 235, 235);
+}
+body header nav{
+    flex: 1;
+    text-align: right;
+}
+body header nav ul{
+    list-style: none;
+    display: inline-block;
+}
+body header nav ul li{
+    display: inline-block;
+    margin: 12px;
+}
+body header nav ul a{
+    text-decoration: none;
+}
+
+
